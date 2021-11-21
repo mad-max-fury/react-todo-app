@@ -1,0 +1,35 @@
+form {
+  margin-top: 2rem;
+  display: flex;
+  /* background-color: #fff; */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 2.4rem;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  width: 34vw;
+}
+
+form > input {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  border-top-left-radius: 5px;
+  /* border-bottom-left-radius: 5px; */
+  outline: 0;
+  padding-left: 0.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+form > button {
+  height: 2.6rem;
+  width: 12rem;
+  color: #fff;
+  border: 0;
+  background-color: #324e9b;
+  border-top-right-radius: 5px;
+  /* border-bottom-right-radius: 5px; */
+  outline: 0;
+  padding: 0 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
